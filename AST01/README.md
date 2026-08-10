@@ -13,4 +13,4 @@ Projetar casos de teste para validar o cálculo de frete e a aplicação de cupo
 
 A atividade foi desenvolvida com base nas regras de negócio propostas e contém os casos de teste para os diferentes cenários.
 
-[📄 Exercício AST01](./Exerc%C3%ADcio%20AST01%20%281%29.pdf)
+[📄 Exercício AST01](./Exercício%20AST01%20%281%29.pdf)
