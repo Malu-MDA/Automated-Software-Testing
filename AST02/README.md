@@ -65,3 +65,23 @@ No terminal, na pasta principal do projeto, execute:
 
 ```bash
 pytest -v
+```
+
+## Integração Contínua (CI)
+
+Além da execução local dos testes, foi configurada uma **Integração Contínua (CI)** utilizando **GitHub Actions**.
+
+O workflow é executado automaticamente sempre que há um `push` ou `pull request` para a branch `main`. Durante a execução, o GitHub:
+
+1. Baixa o código do repositório;
+2. Configura o ambiente Python;
+3. Instala o `pytest`;
+4. Executa automaticamente todos os testes da atividade.
+
+Dessa forma, é possível verificar diretamente pelo GitHub Actions se os testes estão sendo executados corretamente.
+
+### Resultado dos testes
+
+Atualmente, todos os **11 testes** da AST02 estão passando com sucesso no ambiente de CI.
+
+📌 Os resultados podem ser consultados na aba **Actions** do repositório.
